@@ -12,7 +12,15 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons">
         <dcq:license>http://purl.org/NET/rdflicense/cc-by4.0</dcq:license>
-        <rdfs:comment>The Simpsons ontology describes the characters their relationships in &quot;The Simpsons&quot; cartoon series.  Created by Patxi Díaz.</rdfs:comment>
+        <rdfs:comment>Name: 
+the-simpsons.owl
+
+Description: 
+The Simpsons ontology describes the characters their relationships in &quot;The 
+Simpsons&quot; cartoon series. 
+
+Author:
+Patxi Díaz.</rdfs:comment>
     </owl:Ontology>
     
 
@@ -684,13 +692,17 @@
 
     <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode"/>
+    </owl:NamedIndividual>
     
 
 
